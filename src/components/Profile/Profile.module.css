@@ -1,0 +1,59 @@
+.profileContainer {
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-family: sans-serif;
+    background-color: rgb(241, 241, 241);
+    overflow: hidden;
+}
+
+.mainInfoConatiner {
+    margin-top: 12px;
+    text-align: center;
+
+}
+
+.userAvatar {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rgb(54, 54, 54);
+    margin-bottom: 16px;
+
+}
+
+.username {
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+.userInfo {
+    font-weight: 500;
+    color: grey;
+}
+
+.userInfo:last-child {
+    margin-bottom: 12px;
+}
+
+.statsList {
+    display: flex;
+    border-top: 1px solid grey;
+    background-color: rgb(200, 200, 200);
+}
+
+.statsList li {
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    width: calc(100% / 3);
+}
+
+.statsList li span:last-child {
+    font-weight: 600;
+}
