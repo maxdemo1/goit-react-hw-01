@@ -5,6 +5,9 @@ import profileData from '../dataForComponents/Profile.json';
 import FriendList from './FriendList/FriendList';
 import friendListData from '../dataForComponents/FriendList.json';
 
+import TransactionHistory from './TransactionHistory/TransactionHistory';
+import transactionData from '../dataForComponents/TransactionHistory.json';
+
 const {
   username,
   tag,
@@ -26,6 +29,7 @@ function App() {
         likes={likes}
       />
       <FriendList friendsListData={friendListData} />
+      <TransactionHistory transactionData={transactionData} />
     </div>
   );
 }
