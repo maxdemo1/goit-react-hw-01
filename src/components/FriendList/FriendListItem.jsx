@@ -3,9 +3,9 @@ import clsx from 'clsx';
 import styles from './FriendList.module.css';
 
 const FriendListItem = ({ friend }) => {
-  const { id, avatar, isOnline, name: username } = friend;
+  const { avatar, isOnline, name: username } = friend;
   return (
-    <li key={id} className={styles.friendListItem}>
+    <li className={styles.friendListItem}>
       <div>
         <img src={avatar} alt={username} className={styles.friendImage} />
         <h2>{username}</h2>
