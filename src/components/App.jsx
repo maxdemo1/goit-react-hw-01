@@ -3,7 +3,7 @@ import Profile from './Profile/Profile';
 import profileData from '../dataForComponents/Profile.json';
 
 import FriendList from './FriendList/FriendList';
-import friendListData from '../dataForComponents/FriendList.json';
+import friends from '../dataForComponents/FriendList.json';
 
 import TransactionHistory from './TransactionHistory/TransactionHistory';
 import transactionData from '../dataForComponents/TransactionHistory.json';
@@ -28,7 +28,7 @@ function App() {
         views={views}
         likes={likes}
       />
-      <FriendList friendsListData={friendListData} />
+      <FriendList friends={friends} />
       <TransactionHistory transactionData={transactionData} />
     </div>
   );
